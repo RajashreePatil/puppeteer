@@ -9,11 +9,11 @@
 				"uid": "538d834a3350f80c3ff00a70ec7802c8",
 				"projectName": "gamma",
 				"sources": {
-					"baseDir": "C:/path/to/the/gamma/source",
+					"baseDir": "$WORKSPACE",
 					"exclusions": ["exclusion_regex", "exclusion_regex"]
 				}
 			},
-			"dataDir": "C:/path/to/the/datadir",
+			"dataDir": "$GAMMA_DATA",
 			"modules": {
 				"codeissues": [{
 						"name": "jshint"
