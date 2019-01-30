@@ -9,54 +9,17 @@
 				"uid": "538d834a3350f80c3ff00a70ec7802c8",
 				"projectName": "gamma",
 				"sources": {
-					"baseDir": "$WORKSPACE",
+					"baseDir": "C:/path/to/the/gamma/source",
 					"exclusions": ["exclusion_regex", "exclusion_regex"]
 				}
 			},
-			"dataDir": "$GAMMA_DATA",
+			"dataDir": "C:/path/to/the/datadir",
 			"modules": {
 				"codeissues": [{
-						"name": "pmd"
-					}, {
-						"name": "findsecbugs",
-						"config": {
-							"options": [{
-									"name": "reportDir",
-									"value": "path_where_findsecbugs_report_xmls_will_be_created"
-								}
-							]
-						}
-					}, {
-					"name": "spotbugs",
-						"config": {
-							"options": [{
-									"name": "reportDir",
-									"value": "path_where_spotbugs_report_xmls_will_be_created"
-								}
-							]
-						}
-					}
-				],
-				"coverage": [{
-						"name": "clover",
-						"config": {
-							"options": [{
-									"name": "reportDir",
-									"value": "path_where_clover_report_xmls_will_be_created"
-								}
-							]
-						}
-					}
-				],
-				"unittest": [{
-						"name": "junit",
-						"config": {
-							"options": [{
-									"name": "reportDir",
-									"value": "path_where_junit_report_xmls_will_be_created"
-								}
-							]
-						}
+						"name": "jshint"
+					},
+					{
+						"name": "eslint"
 					}
 				]
 			}
