@@ -23,17 +23,15 @@
                 "includePaths": []
             },
             "modules": {
-                "relevance": [
+                "codeissues": [
                     {
-                        "name": "relevance",
+                        "name": "eslint",
                         "enabled": true,
                         "config": {
                             "rules": [],
                             "options": []
                         }
-                    }
-                ],
-                "codeissues": [
+                    },
                     {
                         "name": "jshint",
                         "enabled": false,
@@ -41,9 +39,11 @@
                             "rules": [],
                             "options": []
                         }
-                    },
+                    }
+                ],
+                "relevance": [
                     {
-                        "name": "eslint",
+                        "name": "relevance",
                         "enabled": true,
                         "config": {
                             "rules": [],
